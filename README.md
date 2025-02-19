@@ -4,11 +4,13 @@ Throughout this tutorial we use Node.js to interact with the Solana blockchain. 
 
 ## Setup
 
-To follow this tutorials it is recommended to have the LTS (Long Term Support) version of Node.js installed. When using MacOS, the easiest way to do this is to download `nvm` (Node Version Manager). The command to download both `node` and `nvm` is:
+To follow this tutorials it is recommended to have the LTS (Long Term Support) version of Node.js installed. When using MacOS, the easiest way to do this is to download `nvm` (Node Version Manager).
 
 ```bash
-brew install node nvm
+brew install nvm
 ```
+
+> If you already have an installed version of node aside from the one installed with `nvm`, you should uninstall it before proceeding.
 
 After installing `nvm`, you should create NVM's working directory if it doesn't exist:
 
@@ -31,6 +33,8 @@ Finally, you can install the LTS version of Node with the following command:
 ```bash
 nvm install --lts
 ```
+
+> After installation if you have multiple versions, you can switch using `nvm use --lts`.
 
 ## Resources
 
